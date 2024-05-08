@@ -1,0 +1,67 @@
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+.header{
+    border-bottom: 1px solid greenyellow;
+}
+.header nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.header__links{
+    display: flex;
+    gap: 1.6em;
+}
+
+.header__links li {
+    display: inline-block;
+    align-items: start;
+    flex-direction: row;
+}
+
+.header__links a {
+    color: black;
+    text-decoration: none;
+    transition: ease-in-out;
+    transition-duration: 1s;
+}
+
+.header__links a:hover{
+    color: lightgreen;
+}
+
+.header__logo img{
+    width: 5em;
+}
+
+.container{
+    background-color: greenyellow;
+    width: 75em;
+    height: 15em;
+    margin: 2em 4em;
+}
+
+.container img{
+    width: 100%;
+}
+
+.main-cards{
+    margin-top: 20em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5em;
+}
+.cards{
+    padding: 6em;
+    background-color: aqua;
+}
+
+
+
+
+
+
